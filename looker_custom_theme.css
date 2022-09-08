@@ -1,0 +1,116 @@
+#tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    z-index: 2;
+
+}
+
+#tooltip.hidden {
+    display: none;
+
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+
+
+}
+
+.reportTable {
+  font-family: Open Sans,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  border: 1px solid #CCCCCC; 
+  border-collapse: collapse;
+  border-spacing: 3px;
+
+}
+/* color codes
+Coolblue blue: 0090e3
+Coolblue orange: FF6600
+Dark blue: 285DAB
+Light blue: CCE9F9
+Light grey: f2f7fc
+*/
+
+/* headers */
+.reportTable th {
+  color: #285DAB;
+  border: 1px solid #FFFFFF; 
+  border-bottom: 1px solid #a6a6a6 !important;
+  /* font-size: 10px;  */
+  /* height: 25px; */
+  padding: 5px;
+  background: #FFFFFF;
+
+}
+
+/* table body */
+.reportTable td {
+  color: #000000;
+  vertical-align: super;
+  padding: 5px;
+  /*background: #FFFFFF; --> overwrites odd/even alternating background colors*/
+  border: none; /*1px solid #FFFFFF; */
+  border-collapse: collapse;
+
+}
+
+/* White column divider. Starts after the first column and repeats every 3 columns */
+.reportTable td:nth-child(3n+1) {
+ border-right: solid 7px #FFFFFF;
+}
+
+/* table rows for alternating background colors */
+.reportTable tr:nth-child(even) {
+  background: #f2f7fc;
+}
+
+.left {
+  text-align: left;
+
+}
+
+.right {
+  text-align: right !important;
+
+}
+
+.indent {
+  padding-left: 15px !important;
+
+}
+
+.subtotal {
+  font-style: italic;
+  font-weight: bold;
+  background: #D3D3D3;
+
+}
+
+.total {
+  border-top: 2px solid #a6a6a6 !important;
+  border-bottom: 1px solid #FFFFFF !important;
+  font-weight: bold !important;
+
+}
+
+.total.transposed {
+  border-top: 0px !important;
+  background: #D3D3D3;
+
+}
