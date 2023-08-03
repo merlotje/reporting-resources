@@ -62,7 +62,7 @@ Light grey: f2f7fc
 
 /* table body */
 .reportTable td {
-  /*color: #000000;*/
+  color: inherit;
   vertical-align: super;
   padding: 5px;
   /*background: #FFFFFF; --> overwrites odd/even alternating background colors*/
