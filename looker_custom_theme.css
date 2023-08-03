@@ -71,6 +71,10 @@ Light grey: f2f7fc
 
 }
 
+.negative {
+   color: red;
+}
+
 /* table rows for alternating background colors */
 .reportTable tr:nth-child(even) {
   background: #f2f7fc;
