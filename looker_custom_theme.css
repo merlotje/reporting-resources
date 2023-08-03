@@ -1,3 +1,10 @@
+/* color codes
+Coolblue blue: 0090e3
+Coolblue orange: FF6600
+Dark blue: 285DAB
+Light blue: CCE9F9
+Light grey: f2f7fc
+*/
 #tooltip {
     position: absolute;
     width: auto;
@@ -11,7 +18,7 @@
     -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     pointer-events: none;
-    font-family: sans-serif;
+    font-family: Open Sans, sans-serif, Verdana, Arial;
     font-size: 12px;
     z-index: 2;
 
@@ -24,32 +31,26 @@
 
 #tooltip p {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Open Sans, sans-serif, Verdana, Arial;
     font-size: 12px;
     line-height: 15px;
 
 
 }
 
+/* table */
 .reportTable {
-  font-family: Open Sans,Helvetica,Arial,sans-serif;
+  font-family: Open Sans, sans-serif, Verdana, Arial;
   font-size: 12px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
   border-spacing: 3px;
 
 }
-/* color codes
-Coolblue blue: 0090e3
-Coolblue orange: FF6600
-Dark blue: 285DAB
-Light blue: CCE9F9
-Light grey: f2f7fc
-*/
 
 /* headers */
 .reportTable th {
-  color: #285DAB;
+  color: #000000;
   border: 1px solid #FFFFFF; 
   border-bottom: 1px solid #a6a6a6 !important;
   /* font-size: 10px;  */
@@ -65,14 +66,9 @@ Light grey: f2f7fc
   vertical-align: super;
   padding: 5px;
   /*background: #FFFFFF; --> overwrites odd/even alternating background colors*/
-  border: none; /*1px solid #FFFFFF; */
+  border: 1px solid #FFFFFF;
   border-collapse: collapse;
 
-}
-
-/* White column divider. Starts after the first column and repeats every 3 columns */
-.reportTable td:nth-child(3n+1) {
- border-right: solid 7px #FFFFFF;
 }
 
 /* table rows for alternating background colors */
