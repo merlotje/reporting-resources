@@ -81,7 +81,7 @@ Light grey: f2f7fc
   font-weight: bold !important;
 }
 
-.reportTable tr:nth-child(2n+12) {
+.reportTable tr:nth-child(2n+11) {
   font-weight: bold !important;
 }
 
